@@ -20,7 +20,7 @@ The storage layer is expected to understand references of a file, and keep all r
 
 The exact binary encoding of each file is not restricted, as long as they all convey the same exact semantic, nothing added or taken away.
 
-A reference binary encoding and key-value storage is included is this repository.
+A reference binary encoding and key-value storage is included is this repository, with the [example VCS application](#exapp).
 
 ## trivia
 
@@ -29,6 +29,14 @@ A reference binary encoding and key-value storage is included is this repository
 - the directory file can be treated as a normal file (diffed).
 - the storage backend is tasked to keep all the reachable files alive.
 - no compaction is provided, for simplicity of the implementation. You can compress the files together during transfer or storage though.
+
+## Example Application
+
+<a id="exapp"></a>
+
+Included is this code repository is a simple application that records the current directory. 
+
+TK is this the best showcase?
 
 ## Example
 
